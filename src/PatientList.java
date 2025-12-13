@@ -35,7 +35,7 @@ public class PatientList  {
         }
         if(head.info.id == id){
             head = head.next;
-            System.out.println("Patient with ID " + id + " removed.");
+            System.out.println("Patient with ID" + id + "removed.");
             return;
         }
         Node current = head;
@@ -47,11 +47,11 @@ public class PatientList  {
 
         }
         if ( current == null){
-            System.out.println("Patient with ID "+ id+" is not exist.");
+            System.out.println("Patient with ID"+ id+"is not exist.");
             return;
         }
         previous.next = current.next;
-        System.out.println("Patient with ID "+ id+ " removed");
+        System.out.println("Patient with ID"+ id+ "removed");
     }
     public Patient findPatient(int id){
         Node current = head;
