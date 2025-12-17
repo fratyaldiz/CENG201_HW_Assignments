@@ -35,7 +35,7 @@ public class PatientList  {
         }
         if(head.info.id == id){
             head = head.next;
-            System.out.println("Patient with ID" + id + "removed.");
+            System.out.println("Patient with ID" + id + " removed.");
             return;
         }
         Node current = head;
