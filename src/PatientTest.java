@@ -1,4 +1,4 @@
-public class TestPatient {
+public class PatientTest {
     public static void main(String[] args) {
         PatientList patient1 = new PatientList();
 

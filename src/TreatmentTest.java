@@ -1,4 +1,4 @@
-public class TestTreatment {
+public class TreatmentTest {
     public static void main(String[] args) {
         TreatmentQueue queue = new TreatmentQueue();
 
