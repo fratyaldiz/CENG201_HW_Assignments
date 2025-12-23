@@ -1,0 +1,67 @@
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=58178" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Fırat\Desktop\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW HospitalTest
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+Enqueued:1
+Enqueued:2
+Enqueued:3
+Enqueued:4
+Enqueued:5
+Enqueued:6
+Enqueued:7
+Enqueued:8
+Pushed
+Pushed
+Dequeued:6
+Pushed
+Dequeued:7
+Pushed
+Dequeued:8
+Pushed
+Dequeued:1
+Pushed
+Patients: 
+1 - Zeynep (severity=1, age=21)
+2 - Haydar (severity=2, age=30)
+3 - Alper (severity=3, age=16)
+4 - Gizem (severity=4, age=43)
+5 - Barış (severity=6, age=20)
+6 - Selen (severity=5, age=28)
+7 - Eren (severity=8, age=35)
+8 - Sümeyra (severity=7, age=26)
+9 - Toygun (severity=9, age=40)
+10 - Kemal (severity=10, age=50)
+Priority Treatment Queue: 
+Queue's empty
+Normal Treatment Queue: 
+PatientID=2priority=false, time=23/12/2025 20:25:48
+PatientID=3priority=false, time=23/12/2025 20:25:48
+PatientID=4priority=false, time=23/12/2025 20:25:48
+PatientID=5priority=false, time=23/12/2025 20:25:48
+Discharge Stack: 
+PatientID=1 dischargeTime=23/12/2025 20:25:48
+PatientID=8 dischargeTime=23/12/2025 20:25:48
+PatientID=7 dischargeTime=23/12/2025 20:25:48
+PatientID=6 dischargeTime=23/12/2025 20:25:48
+PatientID=10 dischargeTime=23/12/2025 20:25:48
+PatientID=9 dischargeTime=23/12/2025 20:25:48
+
+10 - Kemal (severity=10, age=50)
+9 - Toygun (severity=9, age=40)
+7 - Eren (severity=8, age=35)
+8 - Sümeyra (severity=7, age=26)
+5 - Barış (severity=6, age=20)
+6 - Selen (severity=5, age=28)
+4 - Gizem (severity=4, age=43)
+3 - Alper (severity=3, age=16)
+2 - Haydar (severity=2, age=30)
+1 - Zeynep (severity=1, age=21)
+
+Process finished with exit code 0

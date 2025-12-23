@@ -1,0 +1,19 @@
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=58082" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Fırat\Desktop\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW TreatmentTest
+Enqueued:1
+Enqueued:2
+Enqueued:3
+Enqueued:4
+Enqueued:5
+Enqueued:6
+Enqueued:7
+Enqueued:8
+Dequeued:1
+Dequeued:2
+Dequeued:3
+PatientID=4priority=false, time=23/12/2025 20:24:31
+PatientID=5priority=true, time=23/12/2025 20:24:31
+PatientID=6priority=false, time=23/12/2025 20:24:31
+PatientID=7priority=false, time=23/12/2025 20:24:31
+PatientID=8priority=true, time=23/12/2025 20:24:31
+
+Process finished with exit code 0

@@ -1,0 +1,17 @@
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=65060" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Fırat\Desktop\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW PatientTest
+Patient added
+Patient added
+Patient added
+Patient added
+Patient added
+
+Patient with ID5removed
+
+1 - Zeynep (severity=1, age=21)
+
+1 - Zeynep (severity=1, age=21)
+2 - Eren (severity=2, age=30)
+3 - Barış (severity=3, age=16)
+4 - Gizem (severity=4, age=43)
+
+Process finished with exit code 0
