@@ -11,7 +11,7 @@ public class DischargeRecord {
     }
 
     public String toString() {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");     //for get a good output
         String time = sdf.format(new Date(this.dischargeTime));
 
         return "PatientID=" + patientId + " dischargeTime=" + time;

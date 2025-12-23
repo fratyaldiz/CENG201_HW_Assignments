@@ -9,7 +9,7 @@ public class PatientList  {
             this.next = null;
         }
     }
-    private Node head = null;
+    private Node head = null;       //First node
 
     public void addPatient(Patient p){
         Node newNode = new Node(p);
@@ -29,7 +29,7 @@ public class PatientList  {
 
     }
     public void removePatient(int id){
-        if (head == null){
+        if (head == null){          //For the list is empty
             System.out.println("List is empty");
             return;
         }
@@ -46,7 +46,7 @@ public class PatientList  {
             current = current.next;
 
         }
-        if ( current == null){
+        if ( current == null){      // If patient is not found
             System.out.println("Patient with ID"+ id+"is not exist.");
             return;
         }
@@ -66,7 +66,7 @@ public class PatientList  {
 
     }
     public void printList(){
-        if (head == null) {
+        if (head == null) {         //For the list is empty
             System.out.println("List is empty ");
         }
         Node current = head;
