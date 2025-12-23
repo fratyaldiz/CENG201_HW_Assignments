@@ -39,7 +39,7 @@ public class HospitalSystem {
 
 
     //Treatment procedure (emergency patients firs)
-    public void proccessTreatment(){
+    public void processTreatment(){
         TreatmentRequest request;
 
         if ( priorityQueue.size()> 0 ){
