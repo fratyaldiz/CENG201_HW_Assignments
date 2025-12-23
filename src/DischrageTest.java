@@ -1,4 +1,4 @@
-public class DischrgeTest {
+public class DischrageTest {
     public static void main(String[] args) {
         DischargeStack stack = new DischargeStack();
 

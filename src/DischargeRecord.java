@@ -1,3 +1,6 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class DischargeRecord {
     int patientId;
     long dischargeTime;
@@ -8,6 +11,9 @@ public class DischargeRecord {
     }
 
     public String toString() {
-        return "PatientID=" + patientId + " dischargeTime=" + dischargeTime;
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        String time = sdf.format(new Date(this.dischargeTime));
+
+        return "PatientID=" + patientId + " dischargeTime=" + time;
     }
 }
